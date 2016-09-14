@@ -46,10 +46,30 @@ The R Script <b>"Course_Project_2_Download_Dataset.R"</b>, will be downloaded th
 
 2. Have total emissions from PM2.5 decreased in the <b>Baltimore City, Maryland (fips == "24510")</b> from 1999 to 2008? Use the <b>base</b> plotting system to make a plot answering this question.
 
+  ### Plot 2
+
+   ![plot2](plot2.png) 
+
 3. Of the four types of sources indicated by the <b>type</b> (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for <b>Baltimore City</b>? Which have seen increases in emissions from 1999–2008? Use the <b>ggplot2</b> plotting system to make a plot answer this question.
+
+  ### Plot 3
+
+   ![plot3](plot3.png) 
 
 4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
 
+  ### Plot 4
+
+   ![plot4](plot4.png) 
+
 5. How have emissions from motor vehicle sources changed from 1999–2008 in <b>Baltimore City</b>?
 
+  ### Plot 5
+
+   ![plot5](plot5.png) 
+
 6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in <b>Los Angeles County, California (fips == "06037")</b>. Which city has seen greater changes over time in motor vehicle emissions?
+
+  ### Plot 6
+
+   ![plot6](plot6.png) 
