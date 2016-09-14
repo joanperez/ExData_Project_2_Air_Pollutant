@@ -31,3 +31,21 @@ Source Classification Code Table (Source_Classification_Code.rds): This table pr
 ## Assignment
 
 The overall goal of this assignment is to explore the National Emissions Inventory database and see what it say about fine particulate matter pollution in the United states over the 10-year period 1999–2008. You may use any R package you want to support your analysis.
+
+## Database Environment Automatic Setup
+
+The R Script <b>"Course_Project_2_Download_Dataset.R"</b>, will be downloaded the required database and automatically configure the necessary environment for the exploratory data analysis.
+
+## Questions
+
+1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the <b>base</b> plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+
+2. Have total emissions from PM2.5 decreased in the <b>Baltimore City, Maryland (fips == "24510")</b> from 1999 to 2008? Use the <b>base</b> plotting system to make a plot answering this question.
+
+3. Of the four types of sources indicated by the <b>type</b> (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for <b>Baltimore City</b>? Which have seen increases in emissions from 1999–2008? Use the <b>ggplot2</b> plotting system to make a plot answer this question.
+
+4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+
+5. How have emissions from motor vehicle sources changed from 1999–2008 in <b>Baltimore City</b>?
+
+6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in <b>Los Angeles County, California (fips == "06037")</b>. Which city has seen greater changes over time in motor vehicle emissions?
