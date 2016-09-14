@@ -36,9 +36,13 @@ The overall goal of this assignment is to explore the National Emissions Invento
 
 The R Script <b>"Course_Project_2_Download_Dataset.R"</b>, will be downloaded the required database and automatically configure the necessary environment for the exploratory data analysis.
 
-## Questions
+## Questions/Answers
 
 1. Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the <b>base</b> plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+
+### Plot 1
+
+![plot1](plot1.png) 
 
 2. Have total emissions from PM2.5 decreased in the <b>Baltimore City, Maryland (fips == "24510")</b> from 1999 to 2008? Use the <b>base</b> plotting system to make a plot answering this question.
 
